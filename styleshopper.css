@@ -1,0 +1,248 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* This is for navbar topbar i am digening */
+header {
+    height: 45px;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-family: Arial;
+    padding: 20px;
+
+}
+
+header :hover {
+    color: red;
+}
+
+.brand-title {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+nav span {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.brand-icons span {
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+/*this is article */
+article {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icons1 {
+    color: gold;
+    margin-right: 20px;
+}
+
+.icons2 {
+    color: gold;
+    margin-left: 20px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 800px;
+    padding-top: 15px;
+}
+
+.man {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./public/image/man.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 6fr 6fr;
+
+
+}
+
+.man span {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+
+.man span.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+
+}
+
+.man:hover {
+    opacity: 0.8;
+}
+
+.woman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./public/image/woman.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 6fr 6fr;
+
+}
+
+.woman span {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.woman span.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+}
+
+.woman:hover {
+    opacity: 0.8;
+}
+
+.kid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./public/image/kid.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 6fr 6fr;
+}
+
+.kid span {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    .button {
+        color: black;
+    }
+}
+
+.kid span.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+}
+
+.kid:hover {
+    opacity: 0.8;
+}
+
+footer {
+    height: 600px;
+    background-color: rgb(74, 70, 70);
+}
+
+.foot-sam {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+main input {
+    height: 60px;
+    width: 400px;
+
+}
+
+main button {
+    height: 60px;
+    width: 130px;
+    margin-left: 20px;
+    background-color: lightgray;
+}
+
+.foot-nav {
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    color: white;
+   padding-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-bottom: 60px;
+}
+
+.foot-panel{
+    display: block;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.foot-media{
+    display:block;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    
+}
+.foot-title{
+    display: block;
+    font-size: 25px;
+    padding-bottom: 20px;
+    line-height: 20px;
+   
+}
+.foot-ditels span{
+    display: block;
+    display: flex;
+  
+}
