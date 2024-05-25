@@ -4,37 +4,6 @@
 }
 
 /* This is for navbar topbar i am digening */
-header {
-    height: 45px;
-
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-    font-family: Arial;
-    padding: 20px;
-
-}
-
-header :hover {
-    color: red;
-}
-
-.brand-title {
-    font-size: 24px;
-    font-weight: bolder;
-    margin-left: 30px;
-}
-
-nav span {
-    font-size: 16px;
-    margin-left: 20px;
-}
-
-.brand-icons span {
-    font-size: 16px;
-    margin-left: 25px;
-}
 
 /*this is article */
 article {
@@ -213,36 +182,39 @@ main button {
     display: grid;
     grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
     color: white;
-   padding-top: 50px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   justify-content: space-evenly;
-   padding-bottom: 60px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
 }
 
-.foot-panel{
+.foot-panel {
     display: block;
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 20px;
-    
+
 }
-.foot-media{
-    display:block;
+
+.foot-media {
+    display: block;
     padding-bottom: 40px;
     padding-top: 20px;
-    
+
 }
-.foot-title{
+
+.foot-title {
     display: block;
     font-size: 25px;
     padding-bottom: 20px;
     line-height: 20px;
-   
+
 }
-.foot-ditels span{
+
+.foot-ditels span {
     display: block;
     display: flex;
-  
+
 }
